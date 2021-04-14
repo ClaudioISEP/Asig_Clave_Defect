@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="res_config_settings_view_moodle_form" model="ir.ui.view">
+        <field name="name">res.config.settings.moodle.form.inherit</field>
+        <field name="model">res.config.settings</field>
+        <field name="inherit_id" ref="openeducat_core.res_config_settings_view_form_core"/>
+        <field name="arch" type="xml">
+            <xpath expr="//h2[@id='openeducat_core_apps']" position="before">
+
+                <h2 id="op_courses_moodle">Parámetros de moodle</h2>
+                <div class="row mt16 o_settings_container"
+                     title="Specify different activities which is held in an institute.">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">URL de Moodle</span>
+                            <div class="text-muted">
+                                Dominio en que se encuentra alojado Moodle
+                                <field name="moodle_url"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Token de Moodle</span>
+                            <div class="text-muted">
+                                Token de acceso a Moodle con permisos de creación y escritura
+                                <field name="moodle_token"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Endpoint</span>
+                            <div class="text-muted">
+                                URL a webservices de moodle
+                                <field name="moodle_endpoint"/>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_left_pane">
+                            <field name="send_moodle"/>
+                        </div>
+                        <div class="o_setting_right_pane">
+                            <label for="send_moodle"/>
+                            <div class="text-muted">
+                                Activar sincronización con Moodle
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Límite</span>
+                            <div class="text-muted">
+                                Limite de cursos a importar
+                                <field name="courses_limit"/>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </xpath>
+            <xpath expr="//h2[@id='op_courses_moodle']" position="before">
+
+                <h2 id="op_google_drive">Configurar Google Drive</h2>
+                <div class="row mt16 o_settings_container"
+                     title="Specify different activities which is held in an institute.">
+                    <div class="col-12 col-lg-6 o_setting_box">
+                        <div class="o_setting_right_pane">
+                            <span class="o_form_label">Verifique la identidad en Google Drive</span>
+                            <div class="text-muted">
+                                <button name="auth_google_drive" type="object" string="Obtener Acceso"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

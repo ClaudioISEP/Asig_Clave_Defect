@@ -1,0 +1,121 @@
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<span>By signing this proposal, I agree to the following terms:</span>"
+msgstr ""
+"<span>Al firmar esta propuesta, acepto los siguientes términos:</span>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<span>Accepted on the behalf of:</span>"
+msgstr "<span>Aceptado en nombre de:</span>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<span>For an amount of:</span>"
+msgstr "<span>Por la cantidad de:</span>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<i class=\"fa fa-check\"/> Accept &amp; Sign"
+msgstr "<i class=\"fa fa-check\"/> Aceptar y Firmar"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<i class=\"fa fa-times\"/> Reject"
+msgstr "<i class=\"fa fa-times\"/> Rechazar"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<i class=\"fa fa-download\"/> Download"
+msgstr "<i class=\"fa fa-download\"/> Descargar"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<i class=\"fa fa-comment\"/> Feedback"
+msgstr "<i class=\"fa fa-comment\"/> Opinión"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "Reject This Quotation"
+msgstr "Rechazar este Presupuesto"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "Tell us why you are refusing this quotation, this will help us improve our services."
+msgstr ""
+"Cuéntenos por favor por qué rechaza este presupuesto. Nos ayudará a mejorar "
+"en un futuro."
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "Your feedback..."
+msgstr "Sus comentarios..."
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_purchase_order_filter_inherit
+msgid "Has invoice"
+msgstr "Pedidos con factura"
+
+#. module: isep_portal_attachments
+#. openerp-web
+#: code:addons/isep_portal_attachments/static/src/xml/portal_signature.xml:11
+#, python-format
+msgid "Invoice reference"
+msgstr "Referencia de factura"
+
+#. module: isep_portal_attachments
+#: code:addons/isep_portal_attachments/controllers/portal.py:121
+#, python-format
+msgid "Invoice is missing."
+msgstr "Es necesario adjuntar la factura."
+
+#. module: isep_portal_attachments
+#: code:addons/isep_portal_attachments/controllers/portal.py:124
+#, python-format
+msgid "Invoice reference is required."
+msgstr "Referencia de factura requerida."
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<strong>Date:</strong>"
+msgstr "<strong>Fecha:</strong>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<strong>Product</strong>"
+msgstr "<strong>Producto</strong>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<strong>Description</strong>"
+msgstr "<strong>Descripción</strong>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<strong>Unit Price</strong>"
+msgstr "<strong>Precio unitario</strong>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<strong>Quantity</strong>"
+msgstr "<strong>Cantidad</strong>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "Untaxed Amount:"
+msgstr "Base imponible:"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "Taxes:"
+msgstr "Impuestos:"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<h4><strong>Message and communication history</strong></h4>"
+msgstr "<h4><strong>Historial de mensajes y comunicaciones</strong></h4>"
+
+#. module: isep_portal_attachments
+#: model_terms:ir.ui.view,arch_db:isep_portal_attachments.view_attachment_form
+msgid "<h5>Signature</h5>"
+msgstr "<h5>Firma</h5>"

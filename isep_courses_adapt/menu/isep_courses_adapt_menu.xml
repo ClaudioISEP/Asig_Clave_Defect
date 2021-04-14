@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Students Menu -->
+        <menuitem id="menu_op_student_config_general"
+                  name="Mantenimiento de alumnos"
+                  parent="openeducat_core.menu_op_school_main"
+                  sequence="80"/>
+
+        <menuitem id="menu_op_students_sub" name="Estudiantes"
+                  parent="openeducat_core.menu_op_school_main" sequence="10"
+                  action="openeducat_core.act_open_op_student_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_document_type_sub" name="Tipos de Documentos"
+                  parent="isep_courses_adapt.menu_op_student_config_general" sequence="10"
+                  action="act_open_op_document_type_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_study_type_sub" name="Tipos de estudios"
+                  parent="isep_courses_adapt.menu_op_student_config_general" sequence="10"
+                  action="act_open_op_study_type_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_contact_type_sub" name="Tipos de contacto"
+                  parent="isep_courses_adapt.menu_op_student_config_general" sequence="10"
+                  action="act_open_op_contact_type_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_university_sub" name="Universidades"
+                  parent="isep_courses_adapt.menu_op_student_config_general" sequence="10"
+                  action="act_open_op_university_view" groups="base.group_system"/>
+    </data>
+    <data>
+        <!-- Configuration Menu -->
+        <menuitem id="menu_op_modality_sub" name="Modalidad"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="10"
+                  action="act_open_op_modality_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_batch_subject_rel_sub" name="Relación de asignaturas"
+                  parent="openeducat_core.menu_op_school_config_subject" sequence="11"
+                  action="act_open_op_batch_subject_rel_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_campus_sub" name="Sedes"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="10"
+                  action="act_open_op_campus_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_evaluation_type_sub" name="Tipos de evaluación"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="10"
+                  action="act_open_op_evaluation_type_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_practices_type_sub" name="Tipos de practicas"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="10"
+                  action="act_open_op_practices_type_view" groups="base.group_system"/>
+
+        <menuitem id="menu_op_area_course_sub" name="Area de Cursos"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="12"
+                  action="act_open_op_area_course_view" groups="base.group_system"/>
+        
+        <menuitem id="menu_op_student_type_sub" name="Tipo de estudios"
+                  parent="openeducat_core.menu_op_school_config_general" sequence="13"
+                  action="act_open_op_study_type_view" groups="base.group_system"/>
+
+    </data>
+</odoo>

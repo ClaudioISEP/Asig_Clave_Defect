@@ -1,0 +1,1055 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* isep_courses_adapt
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0e+e-20200703\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-24 20:42+0000\n"
+"PO-Revision-Date: 2020-07-24 20:42+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__name_catalan
+msgid "Catalan name"
+msgstr "Nombre Catalán"
+
+#. module: isep_courses_adapt
+#: model:ir.model,name:isep_courses_adapt.model_op_evaluation_type
+msgid "Course evaluation type"
+msgstr "Tipo de evaluación"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__create_uid
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__create_date
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__credits
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__credits
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__credits
+msgid "Credits"
+msgstr "Créditos"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__display_name
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__evaluation_type_id
+msgid "Evaluation type"
+msgstr "Tipo de evaluación"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__fees_term_id
+msgid "Fees Term"
+msgstr "tasas Plazo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__hours
+msgid "Hours"
+msgstr "Horas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__id
+msgid "ID"
+msgstr "ID"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type____last_update
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__write_uid
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__write_date
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__level
+msgid "Level"
+msgstr "Nivel"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__modality_id
+msgid "Modality"
+msgstr "Modalidad"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__moodle_category_id
+msgid "Moodle category Id"
+msgstr ""
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__moodle_code
+msgid "Moodle code"
+msgstr "Código en Moodle"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__practical_hours
+msgid "Practical Hours"
+msgstr "Horas Prácticas (HP)"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__independent_hours
+msgid "Independent Hours"
+msgstr "Horas Independientes (HI)"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__theoretical_hours
+msgid "Theoretical Hours"
+msgstr "Horas Teóricas (HT)"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__moodle_course_id
+msgid "Moodle course Id"
+msgstr "Id de Moodle (curso)"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__uvic_code
+msgid "UVIC code"
+msgstr "Código UVIC"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_subject__sepyc_code
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_subject_form
+msgid "SEPYC code"
+msgstr "Código SEPYC"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__generation
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form
+msgid "Generation"
+msgstr "Generación"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__batch_id
+msgid "Batch"
+msgstr "Grupo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__subject_id
+msgid "Subject"
+msgstr "Asignatura"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__hours
+msgid "Hours"
+msgstr "Horas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__ects
+msgid "ECTS"
+msgstr "ECTS"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__nif_faculty
+msgid "Teacher's NIF"
+msgstr "NIF Profesor"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__evaluable
+msgid "Is evaluable"
+msgstr "Es evaluable"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__level
+msgid "Level"
+msgstr "Nivel"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__optional
+msgid "Is optional"
+msgstr "Es opcional"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch_subject_rel__order
+msgid "Order"
+msgstr "Orden"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_evaluation_type__name
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_modality__code
+msgid "Code"
+msgstr "Código"
+
+#. module: isep_courses_adapt
+#: model:ir.model,name:isep_courses_adapt.model_op_course
+msgid "OpenEduCat Course"
+msgstr "Curso OpenEduCat"
+
+#. module: isep_courses_adapt
+#: model:ir.model,name:isep_courses_adapt.model_op_batch_subject_rel
+msgid "Subject relations"
+msgstr "Relación de asignaturas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__period
+msgid "Period"
+msgstr "Periodo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__product_template_id
+msgid "Producto"
+msgstr ""
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__section
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.inherited_view_op_course_form
+msgid "Section"
+msgstr "Sección"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__coordinator
+msgid "Coordinator"
+msgstr "Coordinador"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__modality_id
+msgid "Modality"
+msgstr "Modalidad"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__academic_year
+msgid "Academic year"
+msgstr "Año acádemico"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__days_week
+msgid "Days week"
+msgstr "Días de la semana"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__schedule
+msgid "Schedule"
+msgstr "Horario"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__preference_group
+msgid "Preference group"
+msgstr "Grupo de preferencia"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__contact_class
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__type_practices
+msgid "Type practices"
+msgstr "Tipo de prácticas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__hours
+msgid "Hours"
+msgstr "Horas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__expiration_days
+msgid "Expiration days"
+msgstr "Días de expiración"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__date_diplomas
+msgid "Date diplomas"
+msgstr "Fecha de diplomas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__students_limit
+msgid "Students limit"
+msgstr "Límite matrículas"
+
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__acknowledgments
+msgid "Acknowledgments"
+msgstr "Reconocimientos"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__content
+msgid "Content"
+msgstr "Contenido"
+
+#. module: isep_courses_adapt
+#: model:ir.actions.act_window,name:isep_courses_adapt.act_open_op_evaluation_type_view
+#: model:ir.ui.menu,name:isep_courses_adapt.menu_op_evaluation_type_sub
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_evaluation_type_form
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_evaluation_type_search
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_evaluation_type_tree
+msgid "evaluation_type"
+msgstr "Tipo de evaluación"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course__parent_id
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_course_search
+msgid "Parent Course"
+msgstr "Curso padre"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_student_view
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_student_view_2
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_student__student_ids
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_main
+#: model:ir.ui.menu,name:openeducat_core.menu_op_student_root
+#: model_terms:ir.ui.view,arch_db:openeducat_core.op_student_user_create_view
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_subject
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_subject_form
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_subject_search
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_subject_tree
+msgid "Subject"
+msgstr "Asignatura"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_subject
+msgid "Subject Management"
+msgstr "Gestión de asignaturas"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_course__subject_ids
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__faculty_subject_ids
+msgid "Subject(s)"
+msgstr "Asignaturas"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_faculty_view
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_faculty_view_2
+#: model:ir.model.fields,field_description:openeducat_core.field_wizard_op_faculty__faculty_ids
+#: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_main
+#: model:ir.ui.menu,name:openeducat_core.menu_op_faculty_root
+msgid "Faculties"
+msgstr "Profesores"
+
+#. module: openeducat_core
+#: model_terms:ir.ui.view,arch_db:openeducat_core.kanban_view_faculty
+#: model_terms:ir.ui.view,arch_db:openeducat_core.op_faculty_user_create_view
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_faculty_form
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_faculty_search
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_faculty_tree
+#: model:res.groups,name:openeducat_core.group_op_faculty
+msgid "Faculty"
+msgstr "Profesor"
+
+#. module: openeducat_core
+#: model:ir.model,name:openeducat_core.model_op_batch
+msgid "OpenEduCat Batch"
+msgstr "Grupos OpenEduCat"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student_course__batch_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_subject_registration__batch_id
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_batch_form
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_batch_search
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_batch_tree
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_subject_registration_search
+msgid "Batch"
+msgstr "Grupo"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_batch_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_batch_sub
+msgid "Batches"
+msgstr "Grupos"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_course_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_course_sub
+msgid "Courses"
+msgstr "Cursos"
+
+#. module: openeducat_core
+#: model:ir.ui.menu,name:openeducat_core.menu_op_school_config_course
+msgid "Course Management"
+msgstr "Mantenimiento de Cursos"
+
+#. module: openeducat_core
+#: model:ir.actions.act_window,name:openeducat_core.act_open_op_category_view
+#: model:ir.ui.menu,name:openeducat_core.menu_op_category_sub
+msgid "Categories"
+msgstr "Categorías"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__category_id
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+msgid "Teacher Categories"
+msgstr "Categoría"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_res_config_settings__send_moodle
+msgid "Send Moodle"
+msgstr "Enviar a Moodle"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__campus_id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__campus_id
+msgid "Campus"
+msgstr "Sede"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__delay
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Delay"
+msgstr "Morosidad/Adeudo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__uvic_program
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__uvic_program
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__uvic_program
+msgid "UVIC Program"
+msgstr "Programa UVIC"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__sepyc_program
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__sepyc_program
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__sepyc_program
+msgid "SEPYC Program"
+msgstr "Programa Sepyc / Sep"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__year_end_studies
+msgid "Year of completion of studies"
+msgstr "Finalización estudios"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__place_birth
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__place_birth
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+msgid "Place of birth"
+msgstr "Lugar de nacimiento"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__status_documentation
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form
+msgid "Status documentation"
+msgstr "Estado de documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "System Data"
+msgstr "Datos del Sistema"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Personal Data"
+msgstr "Datos Personales"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Contact Details"
+msgstr "Datos del Contacto"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Academic data"
+msgstr "Datos Académicos"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+msgid "Personal Information"
+msgstr "Información Personal"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Address"
+msgstr "Dirección"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+msgid "Address Place Job"
+msgstr "Dirección Lugar de Trabajo"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+msgid "Bank"
+msgstr "Bancos"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__street
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__street
+msgid "Street"
+msgstr "Calle"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Street..."
+msgstr "Calle..."
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__street2
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__street2
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Street2"
+msgstr "Calle2"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__city
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__city
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "City"
+msgstr "Ciudad"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__state_id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__state_id
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "State"
+msgstr "Estado"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__zip
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__zip
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "ZIP"
+msgstr "C.P."
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__country_id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__country_id
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.ica_view_op_faculty_form_inherit
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Country"
+msgstr "País"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__document_type_id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__document_type_id
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__document_number
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__document_number
+msgid "Document number"
+msgstr "Número de documento"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__contact_type_id
+msgid "Contact type"
+msgstr "Tipo de contacto"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__study_type_id
+msgid "Study type"
+msgstr "Tipo de estudios"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__university_id
+msgid "University"
+msgstr "Universidad"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_res_company__principal_id
+msgid "Principal"
+msgstr "Director"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_res_company__academic_director_id
+msgid "Academic director"
+msgstr "Director acádemico"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student__gr_no
+msgid "GR Number"
+msgstr "Matrícula"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__nifp
+msgid "NIFP"
+msgstr "NIFP"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__job_title
+msgid "Job title"
+msgstr "Título"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__specialty
+msgid "Specialty"
+msgstr "Especialidad"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_faculty__workplace_ids
+msgid "Worklpace"
+msgstr "Lugar de trabajo"
+
+#. module: isep_courses_adapt
+#: model:ir.model,name:isep_courses_adapt.model_op_workplace
+msgid "Workplace"
+msgstr "Lugar de trabajo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_workplace__name
+msgid "Name"
+msgstr "Lugar de trabajo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_workplace__code
+msgid "Code"
+msgstr "Código"
+
+#. module: openeducat_core
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Create Student User"
+msgstr "Crear usuario"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_documents__document_name
+msgid "Document name"
+msgstr "Nombre de documento"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_documents__document_type_id
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_access__student_access
+msgid "Student access"
+msgstr "Fecha de acceso"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_access__student_id
+msgid "Student"
+msgstr "Estudiante"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_access__last_access
+msgid "Ago"
+msgstr "Hace"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__last_access
+msgid "Last access"
+msgstr "Último acceso"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Get access"
+msgstr "Obtener accesos"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Documentation"
+msgstr "Documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Access"
+msgstr "Accesos"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__practical_hours_total
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__practical_hours_total
+msgid "Practical Hours Total"
+msgstr "Total de horas prácticas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__independent_hours_total
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__independent_hours_total
+msgid "Independent Hours Total"
+msgstr "Total de horas independientes"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__theoretical_hours_total
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__theoretical_hours_total
+msgid "Theoretical Hours Total"
+msgstr "Total de horas teóricas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__hours_total
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__hours_total
+msgid "Hours Total"
+msgstr "Total de Horas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__practical_hours_credits
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__practical_hours_credits
+msgid "Practical Hours Credits"
+msgstr "Créditos Horas Prácticas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__independent_hours_credits
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__independent_hours_credits
+msgid "Independent Hours Credits"
+msgstr "Créditos Horas Independientes"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__theoretical_hours_credits
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__theoretical_hours_credits
+msgid "Theoretical Hours Credits"
+msgstr "Créditos Horas Teóricas"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__credits_total
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_batch__credits_total
+msgid "Credits Total"
+msgstr "Total de Créditos"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_course__area_id
+msgid "Area of Course"
+msgstr "Área del curso"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+msgid "Your Documentation"
+msgstr "Su documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+msgid "Your Documentation Details"
+msgstr "Detalles de la documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_update
+msgid "Update Your Documentation"
+msgstr "Actualice su documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_create
+msgid "Upload Your Documentation"
+msgstr "Cargue su documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+msgid "Upload a Document"
+msgstr "Cargar un documento"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_update
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_create
+msgid "Select a File"
+msgstr "Seleccione un archivo"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_update
+msgid "<strong>Upload date:</strong>"
+msgstr "<strong>Fecha de subida:</strong>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_update
+msgid "<strong>Document name:</strong>"
+msgstr "<strong>Nombre de documento:</strong>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_update
+msgid "<strong>Document type:</strong>"
+msgstr "<strong>Tipo de documento:</strong>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_update
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_create
+msgid "Confirm<span class="fa fa-long-arrow-right"/>"
+msgstr "Confirmar <span class="fa fa-long-arrow-right"/>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_update
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_create
+msgid "Back<span class="fa fa-long-arrow-left"/>"
+msgstr "Regresar <span class="fa fa-long-arrow-left"/>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_home_documents
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_home_menu_documents
+msgid "Documentation"
+msgstr "Documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_home_menu_documents
+msgid "New file"
+msgstr "Nuevo documento"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_home_menu_documents
+msgid "<span>Uploading file</span>"
+msgstr "<span>Nuevo documento</span>"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+msgid "Document #"
+msgstr "Documento #"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+msgid "Document name"
+msgstr "Nombre"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_documents_create
+msgid "Document Type"
+msgstr "Tipo de documento"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+msgid "Change"
+msgstr "Cambiar"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.portal_my_documents
+msgid "Download"
+msgstr "Descargar"
+
+#. module: isep_courses_adapt
+#: code:addons/isep_courses_adapt/controllers/portal.py:46
+#, python-format
+msgid "Upload date"
+msgstr "Fecha de subida"
+
+#. module: isep_courses_adapt
+#: code:addons/isep_courses_adapt/controllers/portal.py:50
+#, python-format
+msgid "Document type"
+msgstr "Tipo de documento"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.my_documentation_link
+msgid "My Documentation"
+msgstr "Mi documentación"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+msgid "List of Documents"
+msgstr "Lista de documentos"
+
+#. module: isep_courses_adapt
+#: model:ir.model,name:isep_courses_adapt.model_op_gdrive_documents
+msgid "Google Drive Documentation"
+msgstr "Documentación de Google Drive"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.gdrive_create
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_update
+msgid "Document Type"
+msgstr "Tipo de Documento"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.op_gdrive_documentation
+msgid "Document Name"
+msgstr "Nombre del documento"
+
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_section_course__name
+msgid "Section name"
+msgstr "Nombre de sección"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_section_course__code
+msgid "Section Code"
+msgstr "Número de sección"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_period_course__name
+msgid "Period Name"
+msgstr "Nombre del periodo"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_period_course__code
+msgid "Period Code"
+msgstr "Número del periodo"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.inherited_view_op_course_form
+msgid "General information"
+msgstr "Información general"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.inherited_view_op_course_form
+msgid "Batches"
+msgstr "Grupos"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Subject(s)"
+msgstr "Asignatura(s)"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Student(s)"
+msgstr "Estudiante(s)"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Subjects"
+msgstr "Asignaturas"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Students"
+msgstr "Estudiantes"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Academic information"
+msgstr "Información académica"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "General information"
+msgstr "Información general"
+
+#. module: isep_courses_adapt
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_batch_form_inherited
+msgid "Other information"
+msgstr "Otra información"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student_course__finish_date
+msgid "Finish Date"
+msgstr "Fecha de Finalización"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_attendance_line__justified
+msgid "Justified"
+msgstr "Justificada"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__observations
+msgid "Observations"
+msgstr "Observaciones"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__unsubscribed_date
+msgid "Unsubscribed date"
+msgstr "Fecha de baja"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__exam_on_campus
+msgid "Exams in campus"
+msgstr "Exámenes en campus virtual"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__temporary_leave
+msgid "Temporary leave"
+msgstr "Baja temporal"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__academic_record_closing
+msgid "Academic Record Closing Date"
+msgstr "Cierre de expediente académico"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__generation
+msgid "Generation"
+msgstr "Generación"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_admission__mx_documentation
+msgid "MX Documentation"
+msgstr "Documentaciónn MX"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_exam_attendees__course_type
+msgid "Type of course"
+msgstr "Tipo de curso"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_exam_attendees__order
+msgid "Order"
+msgstr "Orden"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_exam_attendees__modify
+msgid "Modify"
+msgstr "Modifica"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_exam_attendees__admission_id
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__admission_ids
+msgid "Admission"
+msgstr "Admisión"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_exam_attendees__original_marks
+msgid "Original marks"
+msgstr "Nota original"
+
+#. module: isep_courses_adapt
+#: model:ir.model.fields,field_description:isep_courses_adapt.field_op_student__exam_attendees_ids
+#: model_terms:ir.ui.view,arch_db:isep_courses_adapt.view_op_student_form_extended
+msgid "Exam attendees"
+msgstr "Calificaciones"
+
+#. module: openeducat_exam
+#: model:ir.model.fields,field_description:openeducat_exam.field_op_exam_attendees__batch_id
+msgid "Batch"
+msgstr "Grupo"
+
+#. module: openeducat_exam
+#: model:ir.model.fields,field_description:openeducat_exam.field_op_exam_attendees__marks
+msgid "Marks"
+msgstr "Nota"
+
+#. module: openeducat_exam
+#: model:ir.model.fields,field_description:openeducat_exam.field_op_exam_attendees__note
+msgid "Note"
+msgstr "Observaciones"
+
+#. module: openeducat_core
+#: selection:op.faculty,gender:0
+#: selection:op.student,gender:0
+msgid "Female"
+msgstr "Femenino"
+
+#. module: openeducat_core
+#: model:ir.model.fields,field_description:openeducat_core.field_op_faculty__partner_id
+#: model:ir.model.fields,field_description:openeducat_core.field_op_student__partner_id
+#: model_terms:ir.ui.view,arch_db:openeducat_core.view_op_student_form
+msgid "Partner"
+msgstr "Cliente"

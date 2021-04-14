@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Inherit Form View to Modify it -->
+        <record id="imc_res_partner_form_inherit" model="ir.ui.view">
+            <field name="name">imc.res.partner.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="base.view_partner_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='lang']" position="after">
+                    <field name="actual_campaign" widget="many2many_tags"/>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="imc_res_partner_card_form_inherit" model="ir.ui.view">
+            <field name="name">imc.res.partner.card.form.inherit</field>
+            <field name="model">res.partner</field>
+            <field name="inherit_id" ref="payment.view_partners_form_payment_defaultcreditcard"/>
+            <field name="arch" type="xml">
+                <button name="%(payment.payment_token_action)d" position="attributes">
+                    <attribute name="confirm">En términos de lo previsto en
+                        la Ley Federal de Protección de Datos Personales en Posesión de los Particulares (en lo sucesivo denominada como “la Ley”), Universidad Isep te responsabiliza en su totalidad al acceder a visualizar la siguiente información por el mal uso (lucro indebido) que pudiera darle teniendo presente que esto es un  Delito en Materia del Tratamiento Indebido de Datos Personales y que es penado con Prisión.
+                    </attribute>
+                </button>
+            </field>
+        </record>
+
+    </data>
+</odoo>
